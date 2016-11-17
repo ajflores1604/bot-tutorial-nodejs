@@ -26,7 +26,7 @@ function respond() {
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
     postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture11111");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
