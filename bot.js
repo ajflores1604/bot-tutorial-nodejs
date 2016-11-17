@@ -12,7 +12,7 @@ function respond() {
     this.res.writeHead(200);
     postMessage();
     this.res.end();
-  } else if(request.text && RegexBe.test(request.text)) {
+  } else if(request.text && botRegexBe.test(request.text)) {
   this.res.writeHead(200);
   postMessage("http://media3.giphy.com/media/YCseTHF2I6CCA/giphy.gif");
   this.res.end();
