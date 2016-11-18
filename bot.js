@@ -25,14 +25,14 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
-    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture1");
+    postMessage("Stop appropriating black culture2");
+    postMessage("Stop appropriating black culture3");
+    postMessage("Stop appropriating black culture4");
+    postMessage("Stop appropriating black culture5");
+    postMessage("Stop appropriating black culture6");
+    postMessage("Stop appropriating black culture7");
+    postMessage("Stop appropriating black culture8");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
