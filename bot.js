@@ -25,8 +25,14 @@ function respond() {
   }
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties. Happiness remainder joy but earnestly for off. Took sold add play may none him few. If as increasing contrasted entreaties be. Now summer who day looked our behind moment coming. Pain son rose more park way that. An stairs as be lovers uneasy. ");
-    postMessage("Both rest of know draw fond post as. It agreement defective to excellent. Feebly do engage of narrow. Extensive repulsive belonging depending if promotion be zealously as. Preference inquietude ask now are dispatched led appearance. Small meant in so doubt hopes. Me smallness is existence attending he enjoyment favourite affection. Delivered is to ye belonging enjoyment preferred. Astonished and acceptance men two discretion. Law education recommend did objection how old.");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
+    postMessage("Stop appropriating black culture");
     this.res.end();
   } 
   else if(request.text && botRegexStop.test(request.text)) {
