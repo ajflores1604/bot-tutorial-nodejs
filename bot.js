@@ -27,19 +27,19 @@ function respond() {
   else if(request.text && botRegexSlut.test(request.text)) {
     this.res.writeHead(200);
     postMessage("Stop appropriating black culture1");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture2");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture3");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture4");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture5");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture6");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture7");
-    sleep.sleep(5)
+    sleep.sleep(5);
     postMessage("Stop appropriating black culture8");
     this.res.end();
   } 
